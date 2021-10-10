@@ -20,6 +20,7 @@ Sample Output: LatLngs between A & B on the road.
 
 
 Steps to initiate project:
-1. Start the project and start the tomcat server locally.
-2. Send the request as below:
+1. Get API Key from Google Maps console and update api key in "src/main/resources/application.properties"
+2. Start the project and start the tomcat server locally.
+3. Send the request as below:
    http://localhost:8080/getPoints?origin=12.93175,77.62872&destination=12.92662,77.63696
